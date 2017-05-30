@@ -1,5 +1,5 @@
 <?php
 
-file_put_contents("output/" . phpversion() . ".log", time() . " PHP Version: " . phpversion() );
+file_put_contents("output/" . getenv("TRAVIS_PHP_VERSION") . "/" . time() . ".log", time() . " PHP Version: " . phpversion() );
 
 ?>
