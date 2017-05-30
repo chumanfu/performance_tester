@@ -1,5 +1,5 @@
 <?php
 
-file_put_contents("output/" . time() . ".log", "PHP Version: " . phpversion() );
+file_put_contents("output/" . phpversion() . ".log", time() . " PHP Version: " . phpversion() );
 
 ?>
