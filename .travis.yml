@@ -18,3 +18,4 @@ deploy:
   local_dir: output/$TRAVIS_PHP_VERSION
   repo: chumanfu/chumanfu.github.io
   target_branch: master
+  
